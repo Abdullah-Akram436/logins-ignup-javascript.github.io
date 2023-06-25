@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>lOGIN</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -14,9 +14,9 @@
             <button class="active" onclick="login()">Login</button>
             <button onclick="signup()">Signup</button>
         </div>
-    <form>
-          <input type="email" id="" placeholder="Email" required>
-          <input type="password" id="" placeholder="Password" required>
+    <form onsubmit="login(); return false">
+          <input type="email" id="Email" placeholder="Email" required>
+          <input type="password" id="Password" placeholder="Password" required>
         <p>Don't have an account <a onclick="signup()">Sign Up</a></p>
         <button type="submit" class="submit">Login</button>
       </form>
