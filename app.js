@@ -4,7 +4,6 @@ window.addEventListener("load", function () {
     if (userLogin) {
         window.location.replace("./dashboard.html")
     }
-
 })
 
 function signup(){
